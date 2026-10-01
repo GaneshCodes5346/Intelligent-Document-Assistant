@@ -8,7 +8,7 @@ A command-line RAG (Retrieval-Augmented Generation) chatbot that answers questio
 - Splits the document into chunks and embeds them with Google's Gemini embedding model
 - Stores and searches those embeddings with FAISS for fast, relevant retrieval
 - Answers questions using only the retrieved context — concise, 2-sentence answers
-- Remembers the conversation, so follow-up questions ("what was my first question?") work correctly
+- Remembers the conversation, so follow-up questions like ("what was my first question?") work correctly
 
 ## Example
 
